@@ -1,20 +1,57 @@
 body {
-  background-color: rgb(14, 161, 197);
+  background-color: rgb(62, 56, 133);
+  color: white;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 18px;
 }
 
 h3 {
+  font-size: 21px;
+  color: rgb(255, 62, 51);
 }
 
-p {
-  font-size: 18px;
+li,
+a {
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(77, 159, 255);
 }
 
 .imagem-front {
   width: 600px;
+  padding: 15px;
 }
 
-.imagem-front:hover {
-  transition: 0.5ms;
-  width: 700px;
+.techs-aprendidas {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.techs-aprendidas:hover {
+  color: rgb(96, 233, 243);
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.techs-pra-aprender {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.techs-pra-aprender:active {
+  color: rgb(96, 233, 243);
+  font-size: 20px;
+  cursor: pointer;
+}
+
+/* RODAPÉ */
+footer {
+  top: 0;
+  margin: 0;
+  padding: 0;
+  padding-left: 85%;
+}
+
+#link-footer {
+  margin: 3px;
 }
