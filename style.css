@@ -18,11 +18,14 @@ h3 {
   color: rgb(255, 62, 51);
 }
 
+a {
+  color: rgb(77, 159, 255);
+}
+
 li,
 a {
   text-decoration: none;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: rgb(77, 159, 255);
 }
 
 .imagem-front {
@@ -30,26 +33,18 @@ a {
   padding: 15px;
 }
 
-.techs-aprendidas {
-  cursor: pointer;
-  text-decoration: none;
-}
-
 .techs-aprendidas:hover {
-  color: rgb(96, 233, 243);
+  cursor: pointer;
   font-size: 20px;
-  cursor: pointer;
-}
-
-.techs-pra-aprender {
-  cursor: pointer;
-  text-decoration: none;
+  transition: 0.5s;
+  color: rgb(96, 233, 243);
 }
 
 .techs-pra-aprender:active {
-  color: rgb(96, 233, 243);
-  font-size: 20px;
   cursor: pointer;
+  font-size: 20px;
+  transition: 0.5s;
+  color: rgb(255, 62, 51);
 }
 
 footer {
