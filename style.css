@@ -1,8 +1,16 @@
-body {
+.container {
   background-color: rgb(62, 56, 133);
   color: white;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.container main {
+  border: 0;
+  flex: 1;
 }
 
 h3 {
@@ -44,14 +52,6 @@ a {
   cursor: pointer;
 }
 
-/* RODAPÉ */
 footer {
-  top: 0;
-  margin: 0;
-  padding: 0;
   padding-left: 85%;
-}
-
-#link-footer {
-  margin: 3px;
 }
